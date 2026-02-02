@@ -1,0 +1,154 @@
+/*
+  Name: Alex Jarrah
+  Student ID: akj5627
+  Course: IST 256
+  Assignment: ASG-L2
+  Submission Date: 2026-02-01
+  URL: https://github.com/AlexJarrah/portfolio
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  color: #003366;
+}
+
+h3 {
+  font-size: 18px;
+  color: #0066cc;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+section {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+article {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 3px solid #0066cc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #003366;
+  color: white;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+form {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 2px solid #ccc;
+  padding: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+}
+
+textarea {
+  height: 80px;
+}
+
+input[type="submit"] {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0066cc;
+}
+
+aside {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+dd {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
