@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<!--
+  Name: Alex Jarrah
+  Student ID: akj5627
+  Course: IST 256
+  Assignment: ASG-L1: HTML5 Portfolio Page Assignment
+  Submission Date: 2026-01-22
+-->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Alex Jarrah | Student Developer Portfolio</title>
+
+  <meta name="description"
+    content="Professional HTML5 portfolio of Alex Jarrah, student developer specializing in backend systems, software engineering, and cloud technologies.">
+  <meta name="author" content="Alex Jarrah">
+  <meta name="keywords" content="portfolio, student, developer, backend, software engineering">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header,
+    nav,
+    main,
+    aside,
+    footer {
+      padding: 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #003366;
+    }
+
+    figure {
+      margin: 1rem 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th,
+    td {
+      border: 1px solid #333;
+      padding: 0.5rem;
+    }
+
+    caption {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      border-top: 1px solid #ccc;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Alex Jarrah</h1>
+
+    <figure>
+      <img src="https://i.ytimg.com/vi/16m6Sm62dTM/maxresdefault.jpg" alt="Whitehall Coplay School District campus"
+        width="800" height="450" loading="lazy">
+      <figcaption>Whitehall Coplay School District — High School</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://lehighvalley.psu.edu/sites/lehighvalley/files/campus.jpg" alt="Penn State Lehigh Valley campus"
+        width="800" height="450" loading="lazy">
+      <figcaption>Penn State Lehigh Valley — Current University</figcaption>
+    </figure>
+
+    <p>
+      <strong>Student Developer</strong> with a passion for <em>efficient system design</em>,
+      <mark>clean architecture</mark>, and scalable backend applications.
+    </p>
+  </header>
+
+  <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+
+      <article>
+        <h3>Background</h3>
+        <p>
+          I began programming in high school and quickly became interested in building
+          <abbr title="Application Programming Interfaces">APIs</abbr> and backend systems.
+          My primary programming language is <code>Go</code>, and I enjoy solving problems involving
+          database modeling and system performance.
+        </p>
+      </article>
+
+      <article>
+        <h3>Education</h3>
+
+        <p>
+          Senior IST major at Penn State, planning to graduate in <time datetime="2026-05">May 2026</time>.
+        </p>
+
+        <table>
+          <caption>Education Timeline</caption>
+
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Time Period</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th scope="row">Whitehall Coplay High School</th>
+              <td>2018 – 2022</td>
+            </tr>
+            <tr>
+              <th scope="row">Penn State University</th>
+              <td>2022 – 2026 (Expected)</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <article>
+        <h3>Languages:</h3>
+        <ol>
+          <li>Go (6 yrs)</li>
+          <li>Dart (2 yrs)</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Python</li>
+          <li>C</li>
+          <li>C#</li>
+          <li>Java</li>
+          <li>Kotlin</li>
+          <li>Swift</li>
+          <li>Objective-C</li>
+          <li>Lua</li>
+        </ol>
+
+        <h3>Frameworks & Libraries:</h3>
+        <ol>
+          <li>Flutter (2 yrs)</li>
+          <li>React</li>
+          <li>GTK (2 yrs)</li>
+          <li>Templ (2 yrs)</li>
+          <li>gRPC</li>
+        </ol>
+
+      </article>
+
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article>
+        <h3>Open Source Work</h3>
+        <p>
+          Public projects are available on my
+          <a href="https://github.com/AlexJarrah" target="_blank" rel="noopener noreferrer">
+            GitHub profile
+          </a>.
+        </p>
+      </article>
+
+      <article>
+        <h3>Private Systems Development</h3>
+
+        <details>
+          <summary>Click to expand</summary>
+          <p>
+            Developed secure backend services handling thousands of concurrent connections,
+            focusing on reliability, performance optimization, and fault tolerance.
+          </p>
+        </details>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <form action="#" method="post" aria-label="Contact form">
+        <fieldset>
+          <legend>Send a Message</legend>
+
+          <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+          </p>
+
+          <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+          </p>
+
+          <p>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+          </p>
+
+          <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </p>
+
+          <p>
+            <input type="submit" value="Send Message">
+          </p>
+        </fieldset>
+      </form>
+
+      <p>
+        Email: <a href="mailto:akj5627@psu.edu">akj5627@psu.edu</a><br>
+        Phone: <a href="tel:+16107140903">+1 (610) 714-0903</a>
+      </p>
+    </section>
+
+  </main>
+
+  <aside>
+    <h2>Quick Facts</h2>
+
+    <dl>
+      <dt>Primary Focus</dt>
+      <dd>Backend Engineering</dd>
+
+      <dt>Hobbies</dt>
+      <dd>Programming</dd>
+      <dd>Music (Piano)</dd>
+      <dd>UI/UX Design</dd>
+    </dl>
+  </aside>
+
+  <footer>
+    <p>&copy; 2026 Alex Jarrah. All rights reserved.</p>
+    <p>Last updated: <time datetime="2026-01-20">January 20, 2026</time></p>
+  </footer>
+
+</body>
+
+</html>
