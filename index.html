@@ -242,6 +242,32 @@
 
   </div>
 
+  <script>
+    document.querySelector('form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const existingAlert = document.querySelector('.alert');
+      if (existingAlert) existingAlert.remove();
+
+      const contactSection = document.getElementById('contact');
+      const alert = document.createElement('div');
+      alert.className = 'alert';
+
+      if (!name || !email || !message) {
+        alert.classList.add('alert-error');
+        alert.textContent = 'Please fill in all required fields.';
+      } else {
+        alert.classList.add('alert-success');
+        alert.textContent = 'Your message has been sent.';
+      }
+
+      contactSection.insertBefore(alert, contactSection.querySelector('form'));
+    });
+  </script>
+
 </body>
 
 </html>
